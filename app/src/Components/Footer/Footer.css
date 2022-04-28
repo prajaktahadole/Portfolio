@@ -60,3 +60,9 @@
     color: #700c86 !important;
   }
   
+  .footermain >  a{
+  
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--clr-fg-alt);
+  }

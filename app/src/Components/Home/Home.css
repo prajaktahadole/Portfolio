@@ -178,8 +178,8 @@
   .myImage {
     border-radius: 50%;
     margin-left: 10%;
-    height: 27rem;
-    width: 25rem;
+    height: 20rem;
+    width: 18rem;
   }
   
   @media (max-width: 700px) {
@@ -199,8 +199,8 @@
   .about__contact{
      /* border: 1px solid red; */
      width: 30%;
-     margin-left: 90px;
-     margin-top: -150px;
+     margin-left: 85px;
+     margin-top: -70px;
      height: 40px; 
   }
 
@@ -208,4 +208,9 @@
     margin-right: 15px;
     color: var(--clr-fg-alt);
     font-weight: 200;
+    font-size: 1.6rem;
+    
+  }
+  .link-medium{
+    font-size: 1.5rem;
   }

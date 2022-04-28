@@ -1,8 +1,16 @@
 import React from "react";
 import "./Contact.css";
 import { FaHeadphonesAlt } from "react-icons/fa";
-import laptoplogo from "../Assets/laptop.png";
 import emailjs from "emailjs-com";
+import { VscGithub } from "react-icons/vsc";
+import { CgMail } from "react-icons/cg";
+import { CgInstagram, CgFillTelephoneFill } from "react-icons/cg";
+//import { ThemeContext } from "../../Context/theme";
+import { FaLinkedin } from "react-icons/fa";
+import PhoneIcon from "@material-ui/icons/Phone";
+import { GrMedium } from "react-icons/gr";
+
+
 
 const formdata = {
   to_name: "Prajakta Hadole",
@@ -43,6 +51,9 @@ export const Contact = () => {
     e.target.reset();
   };
 
+
+
+  
   return (
     <div className="contact-form">
       <h1 className="contact">
@@ -50,33 +61,54 @@ export const Contact = () => {
         <strong className="purple">Touch</strong>
       </h1>
       <div className="FormDiv">
-        <div className="FormDiv-imagediv">
-          <img src="https://image.shutterstock.com/image-illustration/cartoon-business-people-tin-can-260nw-763614199.jpg" alt="Laptop Logo" />
-        </div>
-        <form className="FormDiv-inputdiv" onSubmit={handleSubmit}>
-          <div>
+      
           
-            <label htmlFor="name">Name : Prajakta Hadole</label>
-        
-          </div>
-          
-          <div>
-            <label htmlFor="email">Email : prajaktahadole@gmail.com</label>
-            
-          </div>
-          <div>
-            <label htmlFor="subject">Phone : +91 9130805761</label>
-           
-          </div>
-          <div>
-            <label htmlFor="message">Address : Akola, Maharastra </label>
+          <a
+            href="https://www.linkedin.com/in/prajakta-hadole/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="linkedin" />
+          </a>
          
-          </div>
-          <div>
-            <label>"If you are an employer looking for a dedicated web developer, feel free to contact me"</label>
-          </div>
-        </form>
+
+          <a
+            href="https://github.com/prajaktahadole"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <VscGithub className="github" />
+          </a>
+      
+          <a
+            href="mailto:prajaktahadole.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <CgMail className="email" />
+          </a>
+
+          <a
+            href="https://instagram.com/prajaktahadole"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <CgInstagram className="twitter" />
+          </a>
+
+
+          <a
+            href="https://medium.com/@prajaktahadole"
+            aria-label="Medium"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrMedium />
+          </a>
+   
       </div>
+
     </div>
   );
 };
+

@@ -11,6 +11,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import DescriptionIcon from "@material-ui/icons/Description";
 import PublicIcon from "@material-ui/icons/Public";
+import { GrMedium } from "react-icons/gr";
 
 export const Home = () => {
   return (
@@ -75,6 +76,18 @@ export const Home = () => {
           >
             <LinkedInIcon />
           </a>
+
+          <a
+            href="https://medium.com/@prajaktahadole"
+            aria-label="Medium"
+            className="link-medium link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrMedium />
+          </a>
+
+
           <a
             href="https://drive.google.com/file/d/1m24RdgCJ9Anc7z4WpUai6ngptFUcyNfC/view?usp=sharing"
             aria-label="github"

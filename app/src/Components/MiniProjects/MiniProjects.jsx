@@ -2,13 +2,10 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { Particle } from "../Home/Particle";
 import "./MiniProjects.css";
-import sudokologo from "../Assets/S.png";
-import Clockifylogo from "../Assets/Internshala.png";
-//import Covidlogo from "../Assets/21.png";
-//import Travelocitylogo from "../Assets/22.png";
-//import Airgaragelogo from "../Assets/23.png";
-import { DiReact, DiJavascript, DiGithubBadge, DiHtml5,DiMongodb, DiNodejs } from "react-icons/di";
-//import { SiRedux, SiStyledComponents, SiMaterialUi } from "react-icons/si";
+
+
+import { DiReact, DiJavascript, DiGithubBadge, DiHtml5, DiMongodb, DiNodejs } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 export const MiniProjects = () => {
     return (
@@ -33,7 +30,7 @@ export const MiniProjects = () => {
                                 </Card.Text>
                                 <div className="Techstacks">
                                     
-                                    <DiJavascript className="Techstacks-icons" />
+                                    <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
                                 </div>
@@ -67,11 +64,11 @@ export const MiniProjects = () => {
                                 McDonald's App
                                 </Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
-                                McDonald's order booking simple app..
+                                McDonald's order booking simple app.
                                 </Card.Text>
                                 <div className="Techstacks">
                                     
-                                    <DiJavascript className="Techstacks-icons" />
+                                    <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
                                 </div>
@@ -110,7 +107,7 @@ export const MiniProjects = () => {
                                 </Card.Text>
                                 <div className="Techstacks">
                                     
-                                    <DiJavascript className="Techstacks-icons" />
+                                    <SiJavascript className="Techstacks-icons" />
                                   
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
