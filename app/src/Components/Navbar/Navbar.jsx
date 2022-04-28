@@ -154,6 +154,7 @@ export const Navbarjsx = () => {
 
                         <Nav.Item>
                             <Nav.Link
+                                
                                 as={Link}
                                 to="/resume"
                                 onClick={
