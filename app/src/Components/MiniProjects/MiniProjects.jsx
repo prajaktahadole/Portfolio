@@ -2,9 +2,12 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { Particle } from "../Home/Particle";
 import "./MiniProjects.css";
+import youtubeimg from "../Assets/youtube.png";
+import Mcdonalsimg from "../Assets/Mcdonals.png";
 
 
-import { DiReact, DiJavascript, DiGithubBadge, DiHtml5, DiMongodb, DiNodejs } from "react-icons/di";
+
+import { DiReact, DiJavascript, DiGithubBadge, DiHtml5, DiMongodb, DiNodejs , DiBootstrap} from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 export const MiniProjects = () => {
@@ -20,7 +23,7 @@ export const MiniProjects = () => {
                    
                     <Col md={6} className="project-card" style={{ textAlign: "center" }}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src="" alt="YouTube Clone" />
+                            <Card.Img variant="top" src={youtubeimg} alt="YouTube Clone" />
                             <Card.Body>
                                 <Card.Title style={{ fontWeight: "800" }}>
                                     YouTube Clone
@@ -33,6 +36,7 @@ export const MiniProjects = () => {
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
+                                    <DiBootstrap className="Techstacks-icons" />
                                 </div>
                                 <Button
                                     variant="primary"
@@ -58,7 +62,7 @@ export const MiniProjects = () => {
 
                     <Col md={6} className="project-card" style={{ textAlign: "center" }}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src="" alt=" McDonald's App" />
+                            <Card.Img variant="top" src={Mcdonalsimg} alt=" McDonald's App" />
                             <Card.Body>
                                 <Card.Title style={{ fontWeight: "800" }}>
                                 McDonald's App
@@ -71,6 +75,7 @@ export const MiniProjects = () => {
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
+                                    <DiBootstrap className="Techstacks-icons" />
                                 </div>
                                 <Button
                                     variant="primary"
@@ -97,7 +102,7 @@ export const MiniProjects = () => {
                      
                     <Col md={6} className="project-card" style={{ textAlign: "center" }}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src="" alt=" Weather App" />
+                            <Card.Img variant="top" src={Mcdonalsimg} alt=" Weather App" />
                             <Card.Body>
                                 <Card.Title style={{ fontWeight: "800" }}>
                                     Weather App
@@ -108,9 +113,9 @@ export const MiniProjects = () => {
                                 <div className="Techstacks">
                                     
                                     <SiJavascript className="Techstacks-icons" />
-                                  
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
+                                    <DiBootstrap className="Techstacks-icons" />
                                 </div>
                                 <Button
                                     variant="primary"

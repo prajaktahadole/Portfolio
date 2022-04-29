@@ -13,13 +13,17 @@ import {
   DiNpm,
   DiBootstrap,
   DiVisualstudio,
+  DiEX,
 
 } from "react-icons/di";
 
 
-import { SiNetlify } from "react-icons/si";
-import{ SiExpress} from "react-icons/si";
-import { SiRedux} from "react-icons/si";
+// import { SiNetlify } from "react-icons/si";
+// import{ SiExpress} from "react-icons/si";
+ import { SiRedux} from "react-icons/si";
+
+
+
 export const TechStack = () => {
   return (
     <div className="techmain">
