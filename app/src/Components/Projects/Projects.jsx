@@ -8,6 +8,7 @@ import Nordimg from "../Assets/NordImg.png";
 import { DiReact, DiJavascript, DiGithubBadge, DiHtml5,DiMongodb, DiNodejs, DiBootstrap } from "react-icons/di";
 import { SiRedux, SiJavascript, SiMaterialUi } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
+import ExLogo from "../Assets/exIcon.png";
 export const Projects = () => {
     return (
         <Container className="body">
@@ -98,6 +99,8 @@ export const Projects = () => {
                                     <DiMongodb className="Techstacks-icons" />
                                     <DiNodejs className="Techstacks-icons" />
                                     <DiBootstrap className="Techstacks-icons" />
+                                     <img src={ExLogo} className="ExpreIcon  Techstacks-icons"/>
+       
                                 </div>
                                 <Button
                                     variant="primary"

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import "./Techstack.css";
 import { Col, Row } from "react-bootstrap";
+import ExLogo from "../Assets/exIcon.png";
 import {
   DiJavascript1,
   DiReact,
@@ -60,7 +61,12 @@ export const TechStack = () => {
       <Col xs={3} md={1} className="tech-icons">
         <DiNodejs /><h6>NodeJS</h6>
       </Col>
+     
 
+      <Col xs={3} md={1} className="tech-icons">
+        <img src={ExLogo} className="Express-Icon"/>
+        <h6>ExpressJS</h6>
+      </Col>
       
      
 

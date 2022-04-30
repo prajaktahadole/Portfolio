@@ -36,7 +36,7 @@ export const MiniProjects = () => {
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
-                                    <DiBootstrap className="Techstacks-icons" />
+                            
                                 </div>
                                 <Button
                                     variant="primary"
@@ -75,7 +75,7 @@ export const MiniProjects = () => {
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
-                                    <DiBootstrap className="Techstacks-icons" />
+                                  
                                 </div>
                                 <Button
                                     variant="primary"
@@ -115,7 +115,7 @@ export const MiniProjects = () => {
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
-                                    <DiBootstrap className="Techstacks-icons" />
+                                  
                                 </div>
                                 <Button
                                     variant="primary"

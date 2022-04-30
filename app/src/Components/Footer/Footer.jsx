@@ -19,7 +19,7 @@ export const Footer = () => {
             <div className="footermain">
 
         <a
-          href="https://github.com/imbickydutta"
+          href="https://github.com/prajaktahadole"
           rel="noreferrer"
           target="_blank"
         >
