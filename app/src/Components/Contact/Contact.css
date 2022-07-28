@@ -17,8 +17,8 @@
   
   .contactlogo {
     margin-top: -1%;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
   }
   .contact-form > h1 {
     padding-top: 10%;
@@ -27,9 +27,11 @@
     padding-bottom: 30px;
   }
   
-  .FormDiv {
+  .contactcontainer {
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
   }
   
   .FormDiv-imagediv {
@@ -41,11 +43,9 @@
   
   
  
-  .FormDiv >  a{
-    margin-top: 5px;
-    font-weight: 800;
-    font-size: 3.5rem;
-    margin-left: 15%;
+  .contactcontainer>  a{
+    
+ 
     color: var(--clr-fg-alt);
   }
   
@@ -54,16 +54,20 @@
     font-size: 10rem;
   }
   
-  @media (max-width: 767px) {
-    .FormDiv {
-      flex-direction: column;
-    }
-    .contact-form > h1 {
-      padding-top: 25%;
-    }
-   
-  }
   
+  
+  @media (max-width: 600px) {
+    .contactcontainer svg {
+      font-size: 2em;
+    }
+    .contactcontainer svg:hover {
+      font-size: 3rem;
+    }
+  }
+ 
+
+
+
 
   .contactcontainer {
     display: flex;

@@ -17,10 +17,6 @@ import {
   DiEX,
 
 } from "react-icons/di";
-
-
-// import { SiNetlify } from "react-icons/si";
-// import{ SiExpress} from "react-icons/si";
  import { SiRedux} from "react-icons/si";
 
 

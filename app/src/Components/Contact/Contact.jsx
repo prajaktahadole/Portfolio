@@ -5,7 +5,6 @@ import emailjs from "emailjs-com";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { CgInstagram, CgFillTelephoneFill } from "react-icons/cg";
-//import { ThemeContext } from "../../Context/theme";
 import { FaLinkedin } from "react-icons/fa";
 import PhoneIcon from "@material-ui/icons/Phone";
 import { GrMedium } from "react-icons/gr";
@@ -22,45 +21,13 @@ const formdata = {
 export const Contact = () => {
   const [inputdata, setinputdata] = React.useState(formdata);
 
-  const handlechange = (e) => {
-    const { name, value } = e.target;
-
-    setinputdata({
-      ...inputdata,
-      [name]: value
-    });
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_xmobghn",
-        "template_x44rk4n",
-        e.target,
-        "user_3a3PGrlCPt7hS6KBC3xOa"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    setinputdata(formdata);
-    e.target.reset();
-  };
-
-
-
-  
   return (
     <div className="contact-form">
       <h1 className="contact">
         <FaHeadphonesAlt className="contactlogo" /> &nbsp;Get in{" "}
         <strong className="purple">Touch</strong>
       </h1>
-      <div className="FormDiv">
+      <div className="contactcontainer">
       
           
           <a

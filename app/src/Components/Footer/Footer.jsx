@@ -3,8 +3,6 @@ import { Row } from "react-bootstrap";
 import "./Footer.css";
 import {
     AiFillGithub,
-    //AiOutlineTwitter,
-    //AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
@@ -27,7 +25,7 @@ export const Footer = () => {
         </a>
 
         <a
-             href="https://drive.google.com/file/d/1m24RdgCJ9Anc7z4WpUai6ngptFUcyNfC/view?usp=sharing"
+             href="https://drive.google.com/drive/folders/13-Xota6GC02wF-PJ2Zo4Y7tXxD6YkKpc?usp=sharing"
              target="_blank"
              rel="noreferrer"
              className="icon-colour home-social-icons"
