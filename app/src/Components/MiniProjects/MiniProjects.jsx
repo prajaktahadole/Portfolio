@@ -5,8 +5,6 @@ import "./MiniProjects.css";
 import youtubeimg from "../Assets/youtube.png";
 import Mcdonalsimg from "../Assets/Mcdonals.png";
 
-
-
 import { DiReact, DiJavascript, DiGithubBadge, DiHtml5, DiMongodb, DiNodejs , DiBootstrap} from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";

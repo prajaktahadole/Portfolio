@@ -3,10 +3,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
-//import logo from "../Assets/Pslogo.png";
 import "./Navbar.css";
-
-
 import { CgFileDocument } from "react-icons/cg";
 
 import {
@@ -99,42 +96,29 @@ export const Navbarjsx = () => {
                             </Nav.Link>
                         </Nav.Item>
 
-                        
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/MiniProjects"
-                                onClick={
-                                    (() => setexpand(false)// eslint-disable-next-line , 
-                                    ,() => setpathstate("#MiniProjects"))
-                                }
+                                to="/miniprojects"
+                                onClick={(() => setexpand(false)// eslint-disable-next-line , 
+                                    , () => setpathstate("#miniprojects"))}
                             >
-                                <AiOutlineFundProjectionScreen
-                                    style={{ marginBottom: "2px" }}
-                                />{" "}
-                                Mini Projects
+                                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />  Mini Projects
                             </Nav.Link>
                         </Nav.Item>
 
 
-                       
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
                                 to="/projects"
-                                onClick={
-                                    (() => setexpand(false)// eslint-disable-next-line , 
-                                    ,() => setpathstate("#projects"))
-                                }
+                                onClick={(() => setexpand(false)// eslint-disable-next-line , 
+                                    , () => setpathstate("#projects"))}
                             >
-                                <AiOutlineFundProjectionScreen
-                                    style={{ marginBottom: "2px" }}
-                                />{" "}
-                                Projects
+                                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />  Projects
                             </Nav.Link>
                         </Nav.Item>
-
-
+                       
 
                         <Nav.Item>
                             <Nav.Link
@@ -145,16 +129,14 @@ export const Navbarjsx = () => {
                                     , () => {
                                         return setpathstate("#contact");
                                     })
-                                }
-                            >
+                                }>
                                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
                             </Nav.Link>
                         </Nav.Item>
 
 
                         <Nav.Item>
-                            <Nav.Link
-                                
+                            <Nav.Link 
                                 as={Link}
                                 to="/resume"
                                 onClick={
@@ -165,9 +147,6 @@ export const Navbarjsx = () => {
                                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
                             </Nav.Link>
                         </Nav.Item>
-
-
-
                     </Nav>
                 </Navbar.Collapse>
             </Container>
