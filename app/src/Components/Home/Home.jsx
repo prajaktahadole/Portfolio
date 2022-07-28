@@ -20,25 +20,26 @@ export const Home = () => {
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
-                <h1 style={{ paddingBottom: 10 }} className="heading">
+                <h1 className="heading">
                   Hello !! <span className="wave">👋🏻</span>
                 </h1>
                 <h1 className="heading-name">
                   I am
                   <strong className="main-name"> &nbsp;Prajakta Hadole</strong>
                 </h1>
-                <div style={{ padding: 15, textAlign: "left" }}>
+                <div >
                   <Type />
                 </div>
               </Col>
-              <Col md={5} style={{ paddingBottom: 20 }} className="homeLogo">
+              <Col md={5}  className="homeLogo">
               <Tilt>
               <img src={homeLogo} className="img-fluid myImage" alt="laptop" />
               
             </Tilt>
               </Col>
             </Row>
-            <Row>
+            <Container>
+        <Row>
       <div className="about__contact center">
           <a
             href="https://github.com/prajaktahadole"
@@ -109,8 +110,10 @@ export const Home = () => {
           </a>
         </div>
       </Row>
+        </Container>
           </Container>
         </Container>
+        
     </>
   );
 };

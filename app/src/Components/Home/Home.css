@@ -44,27 +44,19 @@
     height: 100%;
   }
   
-  
-  .home-header {
-    padding: 80px !important;
-  }
-  
+
   .home-section {
     position: relative;
     z-index: 1;
     background-position: top center;
     background-repeat: no-repeat;
-    padding-bottom: 30px !important;
- 
-    
+    padding-bottom: 30px !important; 
   }
   
   .home-content {
     padding: 9rem 0 2rem !important;
     color: whitesmoke;
-    text-align: left;
-
-    
+    text-align: left; 
   }
   
   .heading {
@@ -178,8 +170,8 @@
   .myImage {
     border-radius: 50%;
     margin-left: 10%;
-    height: 20rem;
-    width: 18rem;
+    height: 18rem;
+    width: 15rem;
   }
   
   @media (max-width: 700px) {
@@ -187,6 +179,15 @@
       padding-top: 1em !important;
       padding-bottom: 1em !important;
     }
+    
+    #home *{
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      padding: 0.2rem;
+    }
+
+
   }
   
 
@@ -197,11 +198,9 @@
   }
 
   .about__contact{
-     /* border: 1px solid red; */
+     display: flex;
      width: 30%;
-     margin-left: 85px;
-     margin-top: -70px;
-     height: 40px; 
+     
   }
 
    .link--icon {
