@@ -98,45 +98,7 @@ export const MiniProjects = () => {
                     </Col>
 
                      
-                    <Col md={6} className="project-card" style={{ textAlign: "center" }}>
-                        <Card className="project-card-view">
-                            <Card.Img variant="top" src={Mcdonalsimg} alt=" Weather App" />
-                            <Card.Body>
-                                <Card.Title style={{ fontWeight: "800" }}>
-                                    Weather App
-                                </Card.Title>
-                                <Card.Text style={{ textAlign: "justify" }}>
-                                Location based weather app. User can also search for their cities and pickup location from map to see weather data of respective places.
-                                </Card.Text>
-                                <div className="Techstacks">
-                                    
-                                    <SiJavascript className="Techstacks-icons" />
-                                    <FaCss3 className="Techstacks-icons" />
-                                    <DiHtml5 className="Techstacks-icons" />
-                                  
-                                </div>
-                                <Button
-                                    variant="primary"
-                                    href=""
-                                    target="_blank"
-                                    style={{ marginTop: "5%" }}
-                                >
-                                    {" "}
-                                    <DiGithubBadge /> Github
-                                </Button>
-                                <Button
-                                    variant="primary"
-                                    style={{ marginLeft: "5%", marginTop: "5%" }}
-                                    href=""
-                                    target="_blank"
-                                >
-                                    {" "}
-                                    <FaLink /> Demo
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
+                   
                             
                 </Row>
             </Container>

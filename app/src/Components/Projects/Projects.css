@@ -83,6 +83,7 @@
 
   .mainpro{
     display: flex;
+    flex-direction: row;
   }
 
   .ExpreIcon{
@@ -90,3 +91,14 @@
     height: 45px;
   }
  
+
+
+
+  
+  @media (max-width: 1024px) {
+    .mainpro{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
