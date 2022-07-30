@@ -5,8 +5,8 @@ import "./Projects.css";
 import liciousimg from "../Assets/licious.png";
 import Nordimg from "../Assets/NordImg.png";
 import Sport from "../Assets/Sport.png"
-import { DiReact, DiJavascript, DiGithubBadge, DiHtml5,DiMongodb, DiNodejs, DiBootstrap } from "react-icons/di";
-import { SiRedux, SiJavascript, SiMaterialUi } from "react-icons/si";
+import { DiReact,  DiGithubBadge, DiHtml5,DiMongodb, DiNodejs, DiBootstrap } from "react-icons/di";
+import { SiRedux, SiJavascript } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 import ExLogo from "../Assets/exIcon.png";
 export const Projects = () => {

@@ -1,26 +1,17 @@
 import React from "react";
 import "./Contact.css";
 import { FaHeadphonesAlt } from "react-icons/fa";
-import emailjs from "emailjs-com";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { CgInstagram, CgFillTelephoneFill } from "react-icons/cg";
+import { CgInstagram } from "react-icons/cg";
 import { FaLinkedin } from "react-icons/fa";
-import PhoneIcon from "@material-ui/icons/Phone";
 import { GrMedium } from "react-icons/gr";
 
 
 
-const formdata = {
-  to_name: "Prajakta Hadole",
-  from_name: "",
-  from_email: "",
-  message: "",
-  subject: ""
-};
-export const Contact = () => {
-  const [inputdata, setinputdata] = React.useState(formdata);
 
+export const Contact = () => {
+ 
   return (
     <div className="contact-form">
       <h1 className="contact">

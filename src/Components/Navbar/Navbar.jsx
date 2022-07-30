@@ -11,7 +11,6 @@ import {
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
     AiOutlineContacts,
-    AiOutlineAppstore,
     AiOutlineTool
 } from "react-icons/ai";
 

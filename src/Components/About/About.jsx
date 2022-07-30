@@ -1,12 +1,9 @@
 import React from "react";
 import "./About.css";
 import { Col, Container, Row } from "react-bootstrap";
-
-import { TechStack } from "./Techstack";
 import { AboutCard } from "./AboutCard";
 import { Particle } from "../Home/Particle";
 import Tilt from "react-parallax-tilt";
-import myImg from "../Assets/profile.jpg";
 import img from "../Assets/portimg.jpg";
 
 export const About = () => {

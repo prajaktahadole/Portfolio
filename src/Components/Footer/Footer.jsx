@@ -1,10 +1,6 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import "./Footer.css";
-import {
-    AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
 export const Footer = () => {
     return (

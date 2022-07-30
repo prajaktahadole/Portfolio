@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import "./Techstack.css";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Image } from "react-bootstrap";
 import ExLogo from "../Assets/exIcon.png";
 import {
   DiJavascript1,
@@ -13,8 +13,6 @@ import {
   DiCss3,
   DiNpm,
   DiBootstrap,
-  DiVisualstudio,
-  DiEX,
 
 } from "react-icons/di";
  import { SiRedux} from "react-icons/si";
@@ -60,7 +58,7 @@ export const TechStack = () => {
      
 
       <Col xs={3} md={1} className="tech-icons">
-        <img src={ExLogo} className="Express-Icon"/>
+        <Image src={ExLogo} className="Express-Icon"/>
         <h6>ExpressJS</h6>
       </Col>
       
