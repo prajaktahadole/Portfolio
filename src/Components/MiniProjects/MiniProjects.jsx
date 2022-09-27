@@ -4,8 +4,9 @@ import { Particle } from "../Home/Particle";
 import "./MiniProjects.css";
 import youtubeimg from "../Assets/youtube.png";
 import Mcdonalsimg from "../Assets/Mcdonals.png";
+import weather from "../Assets/weather.png";
 
-import { DiGithubBadge, DiHtml5,} from "react-icons/di";
+import { DiGithubBadge, DiHtml5,DiReact} from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 export const MiniProjects = () => {
@@ -58,18 +59,22 @@ export const MiniProjects = () => {
                         </Card>
                     </Col>
 
+
+
+                    
+
                     <Col md={6} className="project-card" style={{ textAlign: "center" }}>
                         <Card className="project-card-view">
-                            <Card.Img variant="top" src={Mcdonalsimg} alt=" McDonald's App" />
+                            <Card.Img variant="top" src={weather} alt=" McDonald's App" />
                             <Card.Body>
                                 <Card.Title style={{ fontWeight: "800" }}>
-                                McDonald's App
+                                Weather App
                                 </Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
-                                McDonald's order booking simple app.
+                                A simple weather app built with React, It allows users to search for cities worldwide and display current weather, 7 days forecast, and hourly forecast.
                                 </Card.Text>
                                 <div className="Techstacks">
-                                    
+                                    <DiReact className="Techstacks-icons"/>
                                     <SiJavascript className="Techstacks-icons" />
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
@@ -77,7 +82,7 @@ export const MiniProjects = () => {
                                 </div>
                                 <Button
                                     variant="primary"
-                                    href="https://github.com/prajaktahadole/Advanced-js/tree/main/5%20Promises"
+                                    href="https://github.com/prajaktahadole/Weather-app"
                                     target="_blank"
                                     style={{ marginTop: "5%" }}
                                 >
@@ -87,7 +92,7 @@ export const MiniProjects = () => {
                                 <Button
                                     variant="primary"
                                     style={{ marginLeft: "5%", marginTop: "5%" }}
-                                    href=""
+                                    href="https://prajaktahadole-weatherapp.netlify.app/"
                                     target="_blank"
                                 >
                                     {" "}
@@ -97,8 +102,10 @@ export const MiniProjects = () => {
                         </Card>
                     </Col>
 
-                     
-                   
+
+
+
+
                             
                 </Row>
             </Container>
