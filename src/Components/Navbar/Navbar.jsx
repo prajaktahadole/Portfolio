@@ -98,6 +98,18 @@ export const Navbarjsx = () => {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
+                                to="/projects"
+                                onClick={(() => setexpand(false)// eslint-disable-next-line , 
+                                    , () => setpathstate("#projects"))}
+                            >
+                                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />  Projects
+                            </Nav.Link>
+                        </Nav.Item>
+                       
+
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
                                 to="/miniprojects"
                                 onClick={(() => setexpand(false)// eslint-disable-next-line , 
                                     , () => setpathstate("#miniprojects"))}
@@ -107,17 +119,6 @@ export const Navbarjsx = () => {
                         </Nav.Item>
 
 
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/projects"
-                                onClick={(() => setexpand(false)// eslint-disable-next-line , 
-                                    , () => setpathstate("#projects"))}
-                            >
-                                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />  Projects
-                            </Nav.Link>
-                        </Nav.Item>
-                       
 
                         <Nav.Item>
                             <Nav.Link

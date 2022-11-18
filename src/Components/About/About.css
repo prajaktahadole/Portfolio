@@ -5,6 +5,10 @@
     background-image: var(--section-background-color) !important;
    color: white !important;
   }
+
+  .Imagg{
+    margin-top: 30px;
+  }
   
   .tech-icons {
     font-size: 4.5em !important;
@@ -24,6 +28,9 @@
   @media (max-width: 767px) {
     .tech-icons {
       margin: 10px !important;
+    }
+    .Imagg{
+      margin-top: 5px;
     }
   }
   

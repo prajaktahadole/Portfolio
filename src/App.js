@@ -39,13 +39,13 @@ export default function App() {
         <section id="#Techstack">
           <TechStack />
         </section>
-        
-        <section id="#miniprojects">
-          < MiniProjects />
-        </section>
 
         <section id="#projects">
           <Projects />
+        </section>
+
+        <section id="#miniprojects">
+          < MiniProjects />
         </section>
       
         <section id="#contact">
