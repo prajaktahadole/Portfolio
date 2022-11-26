@@ -54,7 +54,10 @@
     font-size: 10rem;
   }
   
-  
+  .email{
+    width: 4rem;
+    height: 4rem;
+  }
   
   @media (max-width: 600px) {
     .contactcontainer svg {
@@ -62,6 +65,11 @@
     }
     .contactcontainer svg:hover {
       font-size: 3rem;
+    }
+    .email{
+      margin-top: -5px;
+      width: 3rem;
+      height: 3rem;
     }
   }
  

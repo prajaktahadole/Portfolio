@@ -89,7 +89,7 @@ export const Home = () => {
 
 
           <a
-            href="https://drive.google.com/file/d/1wJh3YFPL6Fm2QCDwX_8kVZ-rX7l9cflG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1q2kcgYA3Eq0IEmteLHXNBiIcy7ChxURH/view?usp=share_link"
             aria-label="github"
             className="link link--icon"
             target="_blank"

@@ -21,7 +21,7 @@ export const Footer = () => {
         </a>
 
         <a
-             href="https://drive.google.com/file/d/1wJh3YFPL6Fm2QCDwX_8kVZ-rX7l9cflG/view?usp=sharing"
+             href="https://drive.google.com/file/d/1q2kcgYA3Eq0IEmteLHXNBiIcy7ChxURH/view?usp=share_link"
              target="_blank"
              rel="noreferrer"
              className="icon-colour home-social-icons"

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 body {
+  padding: 0;
+  /* overflow-x: inherit; */
+  overflow-x: hidden;
+  width: 100%;
   margin: 0;
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
@@ -9,6 +13,7 @@ body {
 }
 
 html {
+    width: 100%;
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
@@ -48,9 +53,9 @@ html {
 /*Scrollbar   */
 /* --------- */
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
   width: 7px;
-}
+} 
 
 /* Track */
 ::-webkit-scrollbar-track {
