@@ -33,7 +33,7 @@ export const Projects = () => {
                            <div>     
                            <Card.Body>
                                 <Card.Title style={{ fontSize: "40px" , marginBottom : "15px" }}>
-                                Licious Clone
+                                Licious 
                                 </Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
                                 Licious is the ultimate destination to buy premium and high-quality fresh seafood and meat online. It's a team project completed executed in 5 days.
@@ -74,6 +74,69 @@ export const Projects = () => {
 
 
 
+
+                    
+                    <Col md={12} className="project-card">
+                         <Card className="project-card-view" style={{ textAlign: "center" }}>
+
+                           <div className="mainpro">
+
+                           <div className="proimg">
+                            <Card.Img variant="top" src={Sport} alt="SportsJam Clone" />
+                            </div>
+                           
+                           <div>     
+                           <Card.Body>
+                                <Card.Title style={{ fontSize: "40px" , marginBottom : "15px" }}>
+                                SportsJam 
+                                </Card.Title>
+                                <Card.Text style={{ textAlign: "justify" }}>
+                                Sportsjam is India's leading Online Sports & Fitness Equipment Store. 
+                                </Card.Text>
+                                <div className="Techstacks">
+                                   <SiJavascript className="Techstacks-icons" />
+                                  
+                                    <DiReact className="Techstacks-icons"/>
+                                    <SiRedux className="Techstacks-icons"/>
+                                    <DiMongodb className="Techstacks-icons" />
+                                    <DiBootstrap className="Techstacks-icons" />
+                                    
+                                </div>
+                                <Button
+                                    variant="primary"
+                                    style={{ marginTop: "5%" }}
+                                    href="https://github.com/prajaktahadole/Sportsjam"
+                                    target="_blank"
+                                >
+                                    {" "}
+                                    <DiGithubBadge /> Github
+                                </Button>
+                                <Button
+                                    variant="primary"
+                                    style={{ marginLeft: "5%", marginTop: "5%" }}
+                                    href="https://sports-jam.netlify.app/"
+                                    target="_blank"
+                                >
+                                    {" "}
+                                    <FaLink /> Demo
+                                </Button>
+                            </Card.Body>
+                           </div>
+                           </div>
+                        </Card>
+                    </Col>
+
+            
+
+
+
+
+
+
+
+
+
+
                 
                     <Col md={12} className="project-card">
                          <Card className="project-card-view" style={{ textAlign: "center" }}>
@@ -87,7 +150,7 @@ export const Projects = () => {
                            <div>     
                            <Card.Body>
                                 <Card.Title style={{ fontSize: "40px" , marginBottom : "15px" }}>
-                                Nordstrom Clone
+                                Nordstrom 
                                 </Card.Title>
                                 <Card.Text style={{ textAlign: "justify" }}>
                                  Nordstrom, Inc. which is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids. 
@@ -127,57 +190,6 @@ export const Projects = () => {
                     </Col>
 
 
-                    <Col md={12} className="project-card">
-                         <Card className="project-card-view" style={{ textAlign: "center" }}>
-
-                           <div className="mainpro">
-
-                           <div className="proimg">
-                            <Card.Img variant="top" src={Sport} alt="SportsJam Clone" />
-                            </div>
-                           
-                           <div>     
-                           <Card.Body>
-                                <Card.Title style={{ fontSize: "40px" , marginBottom : "15px" }}>
-                                SportsJam Clone
-                                </Card.Title>
-                                <Card.Text style={{ textAlign: "justify" }}>
-                                Sportsjam is India's leading Online Sports & Fitness Equipment Store. 
-                                </Card.Text>
-                                <div className="Techstacks">
-                                   <SiJavascript className="Techstacks-icons" />
-                                  
-                                    <DiReact className="Techstacks-icons"/>
-                                    <SiRedux className="Techstacks-icons"/>
-                                    <DiMongodb className="Techstacks-icons" />
-                                    <DiBootstrap className="Techstacks-icons" />
-                                    
-                                </div>
-                                <Button
-                                    variant="primary"
-                                    style={{ marginTop: "5%" }}
-                                    href="https://github.com/prajaktahadole/Sportsjam"
-                                    target="_blank"
-                                >
-                                    {" "}
-                                    <DiGithubBadge /> Github
-                                </Button>
-                                <Button
-                                    variant="primary"
-                                    style={{ marginLeft: "5%", marginTop: "5%" }}
-                                    href="https://sports-jam.netlify.app/"
-                                    target="_blank"
-                                >
-                                    {" "}
-                                    <FaLink /> Demo
-                                </Button>
-                            </Card.Body>
-                           </div>
-                           </div>
-                        </Card>
-                    </Col>
-
-            
 
                                     
                 </Row>
